@@ -2,6 +2,12 @@
 
 Bienvenido a la **Página de Bicicletas**, un pequeño proyecto creado como práctica de HTML y CSS. Esta web está orientada al mundo de las bicicletas y proporciona información básica sobre diferentes tipos de bicicletas.
 
+<div style="text-align: center;">
+    <a href="https://navillax.github.io/NaviBicis/">
+        <img src="https://i.gifer.com/ZS3t.gif" alt="Descripción del GIF" width="200" />
+    </a>
+</div>
+
 ## 📄 Contenido
 
 Este proyecto consta de tres páginas HTML:
