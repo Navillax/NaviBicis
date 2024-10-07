@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Página sobre bicicletas" />
+    <meta name="author" content="Andrés NaviX" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NaviBicis</title>
+    <link rel="stylesheet" href="css/main.css" media="screen" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header" id="top">
+        <nav role="navigation">
+          <img id="logo" src="images/logo.png" alt="logo" />
+          <ul>
+            <li><a href="index.html" title="Inicio">portada</a></li>
+            <li>
+              <a href="listas.html" title="Rutas">rutas</a>
+            </li>
+            <li><a href="contacto.html" title="Contacto">contacto</a></li>
+          </ul>
+          <button
+            class="bt-acceso tooltip"
+            title="Esto es una página visual / This is a visual page"
+          >
+            acceso
+          </button>
+        </nav>
+      </header>
+      <!-- logo & navegación -->
+      <article class="page-jumbo" role="article">
+        <!-- texto bienvenida -->
+        <div>
+          <h1>¡Nuestro club ciclista!</h1>
+          <p>Descubre algunas rutas.</p>
+          <p>Página sobre Bicicletas y Ciclismo.</p>
+          <p>¡Pruébalo!.</p>
+        </div>
+      </article>
+      <main role="main">
+        <article role="article">
+          <!-- contenido principal -->
+          <header class="center">
+            <h1>Todo sobre el mundo de la bicicleta</h1>
+            <p>
+              Tanto para los fans de las piedras y el temblor de manos como para
+              aquellos que no se separan de su flaca y el asfalto,<br />
+              tenemos las mejores rutas para ti, ciclista.
+            </p>
+          </header>
+          <div class="row">
+            <div class="column">
+              <h2>Montaña</h2>
+              <img src="images/bicicleta-montana.jpeg" alt="bicicleta montaña" />
+              <p>En esta sección encontrarás las mejores rutas de BTT...</p>
+              <button class="bt-viewmore">ver más</button>
+            </div>
+            <div class="column">
+              <h2>Carretera</h2>
+              <img
+                src="images/bicicleta-carretera.jpeg"
+                alt="bicicleta carretera"
+              />
+              <p>
+                En esta sección tienes rutas para rodar muchos kilómetros...
+              </p>
+              <button
+                class="bt-viewmore"
+                title="Esto es una página visual / This is a visual page"
+              >
+                ver más
+              </button>
+            </div>
+          </div>
+        </article>
+        <!-- //contenido principal -->
+        <section>
+          <!-- entradas del blog CARDS -->
+          <header class="center">
+            <h3>Algunos tipos de bicicleta</h3>
+            <p>Algunos de los modelos o tipos de bicicleta son...</p>
+          </header>
+          <div class="row">
+            <article class="column card" role="article">
+              <img src="images/btt.jpeg" alt="imagen blog" style="width: 100%" />
+              <div class="container">
+                <h4>Rígida o doble</h4>
+                <p>Rendimiento o comodidad, la elección es dura</p>
+              </div>
+            </article>
+            <article class="column card" role="article">
+              <img
+                src="images/ciclovsgravel.jpeg"
+                alt="imagen blog"
+                style="width: 100%"
+              />
+              <div class="container">
+                <h4>Ciclocross y gravel</h4>
+                <p>Las diferencias son sutiles, pero existen.</p>
+              </div>
+            </article>
+            <article class="column card" role="article">
+              <img
+                src="images/fatbike.jpeg"
+                alt="imagen blog"
+                style="width: 100%"
+              />
+              <div class="container">
+                <h4>Fat Bikes</h4>
+                <p>Es decir, una bici que parece una moto.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <!-- //entradas del blog CARDS -->
+      </main>
+      <aside class="page-aside" role="complementary">
+        <!-- talla -->
+        <h3>¿Sabes como elegir tu talla de bici?</h3>
+        <p>Aunque todas puedan parecer iguales, no lo son:<br /></p>
+        <h4>Talla carretera</h4>
+        <p>47, 49, 51, 52, 54, 56, 58, 60</p>
+        <h4>Talla montaña</h4>
+        <p>S, M, L, XL</p>
+      </aside>
+      <!-- //talla -->
+      <footer class="page-footer center" role="contentinfo">
+        <div class="page-footer-container">
+          <small> <a href="#top" class="up">👆</a> </small><br />
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+          <p>
+            Creado por:
+            <a href="mailto:dev.navix@gmail.com">Andrés NV</a> 2024.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
